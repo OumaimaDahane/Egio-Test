@@ -1,0 +1,194 @@
+@media (max-width: 1200px) {
+    .header-nav .logo img{
+        max-width: 180px;
+    }
+    .header-right .link {
+        margin-left: 5px;
+    }
+    .header .link.user i{
+        margin-right: 3px;
+    }
+    .header-right i {
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+    }
+    .header-nav .menu ul li {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1041px) {
+    .header-nav .logo,
+    .header-right {
+        width: 30%;
+    }
+    .header-nav .logo img{
+        max-width: 150px;
+    }
+    .header-nav .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-nav .menu ul li {
+        padding: 0 0 10px;
+        margin: 0 0 10px;
+        border-bottom: 1px solid #3ab39b;
+    }
+    .header-nav .menu .link {
+        font-size: 22px;
+    }
+    .header-nav .container > .row {
+        justify-content: space-between;
+    }
+    .header-right .link {
+        font-size: 0;
+    }
+    .header-right .menu-mobile {
+        display: block;
+        margin-left: 5px;
+    }
+    .header-nav .menu {
+        position: fixed;
+        left: -102%;
+        top: 0;
+        background: white;
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+        transition: 0.4s ease-in-out;
+    }
+    .header-nav .menu .menu-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 1024px) {
+    .page-content .thumbnail, 
+    .page-content .page-info {
+        max-width: 50%;
+    }
+    .page-content .page-info {
+        padding-left: 30px;
+    }
+    .s-products h2 {
+        font-size: 38px;
+    }
+    .footer-reassurance .row {
+        flex-flow: wrap;
+    }
+    .footer-reassurance .r-item {
+        width: 50%;
+        padding: 0 10px;
+    }
+    .footer-reassurance .r-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .footer-reassurance .r-icon img {
+        height: 30px;
+    }
+    .footer-reassurance .r-title {
+        font-size: 18px;
+        max-width: 50%;
+        margin: 0 auto 5px;
+    }
+    .footer-reassurance .r-desc {
+        font-size: 15px;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 992px) {
+    .header-nav {
+        padding: 12px 0;
+    }
+    .page-content .container > .row {
+        flex-direction: column;
+    }
+    .page-content .thumbnail {
+        margin-bottom: 40px;
+    }
+    .page-content .thumbnail, 
+    .page-content .page-info {
+        max-width: 100%;
+    }
+    .page-content .page-info {
+        padding-left: 0;
+    }
+    .s-products h2 {
+        font-size: 30px;
+    }
+    .s-products .products {
+        margin: 0 -5px;
+    }
+    .s-products .s-item {
+        padding: 0 5px;
+    }
+    .s-products h3 {
+        font-size: 18px;
+    }
+    .s-products .category {
+        font-size: 15px;
+    }
+    .s-products .s-info {
+        padding: 15px;
+    }
+    .footer-newsletter .n-title {
+        width: 50%;
+    }
+    .footer-newsletter .form-newsletter {
+        width: 50%;
+    }
+}
+@media (max-width: 640px) {
+    .header-top .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-top .phone {
+        position: relative;
+    }
+    .footer-reassurance .r-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-reassurance .r-title {
+        max-width: 100%;
+    }
+    .footer-reassurance .r-desc {
+        max-width: 100%;
+    }
+    .footer-newsletter .row {
+        flex-direction: column;
+    }
+
+    .footer-newsletter h2 {
+        font-size: 30px;
+    }
+    .footer-newsletter .n-title {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .footer-newsletter .form-newsletter {
+        width: 100%;
+    }
+    .footer-newsletter .n-input input[type="email"] {
+        max-width: 100%;
+    }
+    .footer-newsletter .n-terms label {
+        max-width: 100%;
+    }
+    .footer-seo {
+        padding: 35px 0;
+    }
+    .footer-seo p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+
